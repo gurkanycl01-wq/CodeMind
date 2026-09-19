@@ -1,5 +1,5 @@
 package com.codemind.ai
-import androidx.compose.foundation.layout.weight
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -806,14 +806,22 @@ fun SmallToolButton(
 ) {
 
     OutlinedButton(
-        onClick = onClick,
-        modifier = Modifier.weight(1f)
+        onClick = onClick
     ) {
 
         Icon(
             icon,
             contentDescription = null,
             modifier = Modifier.size(16.dp)
+        )
+
+        Spacer(
+            modifier = Modifier.width(4.dp)
+        )
+
+        Text(
+            text,
+            fontSize = 10.sp
         )
     }
 }
