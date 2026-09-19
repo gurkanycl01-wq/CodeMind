@@ -1,0 +1,2 @@
+# CodeMind
+# Custom ProGuard rules
