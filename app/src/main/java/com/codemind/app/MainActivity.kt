@@ -1,4 +1,4 @@
-package com.codemind.ai
+package com.codemind.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
