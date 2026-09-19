@@ -1,5 +1,5 @@
 package com.codemind.ai
-
+import androidx.compose.foundation.layout.weight
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
